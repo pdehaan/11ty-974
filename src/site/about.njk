@@ -1,0 +1,19 @@
+---
+title: About Me (disappointing)
+tags:
+  - about-me
+permalink: about-me/
+---
+
+I have things to say!
+
+<pre>
+{{ site | dump(2) }}
+</pre>
+
+<hr/>
+
+{% for item in site %}
+- value:{{ item.myKey }}<br/>
+{% endfor %}
+

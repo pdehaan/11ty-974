@@ -1,0 +1,27 @@
+{
+  "name": "11ty-974",
+  "description": "Testing global data files",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-974/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  },
+  "homepage": "https://github.com/11ty/eleventy/issues/974",
+  "keywords": [],
+  "license": "MPL-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-974.git"
+  },
+  "scripts": {
+    "build": "eleventy",
+    "format:input": "npx prettier 'src/**/*.{js,json}' '*.js' --write",
+    "format:output": "npx prettier 'www/**/*.html' --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
